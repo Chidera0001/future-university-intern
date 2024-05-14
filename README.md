@@ -1,48 +1,70 @@
-# Frontend Intern Assignment
+# Getting Started with Create React App
 
-You have to make a simple todo list in React.js, where the user can add, delete, and mark complete the todo item.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-<img width="1280" alt="MacBook Air - 1" src="https://github.com/TheFutureUniversity/frontend-assignment/assets/21043614/ca93bea6-1d40-4da9-9036-1ca2f2c79051">
+## Available Scripts
 
-The app consists of multiple reusable components which are combined to make the final UI.
+In the project directory, you can run:
 
-## Requirements:
+### `npm start`
 
-- Experience with `React.js` or a willingness to learn.
-- Knowledge of `HTML`, `CSS`, and `JavaScript`.
-- Experience with `Git` and `version control`.
-- Ability to work independently and complete tasks on time.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## Things to focus on:
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-- Create custom, reusable components for the todo list application, including Button, Checkbox, and TodoRow:
-  - __Button.tsx__
-    Button will have two variants which are `big` and `small`
+### `npm test`
 
-  - __Checkbox.tsx__
-    Checkbox will have a checkbox input and a label. The label should be passed from props.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-  - __TodoRow.tsx__
-    This will contain the `Checkbox` and `Button` component. The button should only be visible on hover.
+### `npm run build`
 
-- Develop the final application using React.js and combine the reusable components to achieve the desired UI.
-- Ensure that all code is properly structured and well documented.
-- Create a Git repository and commit your work regularly with meaningful commit messages.
-- Complete the project in a timely manner to be considered for the next interview round.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-## What you can:
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-- You can use `create react app` or `next.js` for the assignment
-- You can use Tailwind CSS or any other CSS framework to complete the assignment.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## What you cannot:
+### `npm run eject`
 
-- You cannot copy code from the internet or use `GitHub Copilot`.
-- You may not seek assistance from others, but you can use Google for minor help.
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-To apply, please submit your completed project in a GitHub repository along with your name, email, and repository URL via the Google form. We look forward to seeing your work and considering you for the next interview round!
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-→ [Submit Your Assignment Here](https://forms.gle/w43r7eoCRfyf7muQ9)
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
----
-If you have any question, please reach at [arvind.tech@thefuture.university](mailto:arvind.tech@thefuture.university)
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
